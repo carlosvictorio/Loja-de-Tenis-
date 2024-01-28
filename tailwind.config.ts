@@ -8,6 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'lob': ['Caveat', 'sans'],
+      },
+      margin: {
+        'center': '0 auto',
+      },
+      boxShadow: {
+        'btm': '0px 15px 10px -15px #111',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -17,4 +26,7 @@ const config: Config = {
   },
   plugins: [],
 };
+
+//box-shadow: 0 4px 2px -2px gray;
+
 export default config;
